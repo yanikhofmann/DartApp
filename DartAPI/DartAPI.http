@@ -1,0 +1,6 @@
+@DartAPI_HostAddress = http://localhost:5140
+
+GET {{DartAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
