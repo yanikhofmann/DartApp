@@ -1,0 +1,10 @@
+---
+OutputDir: "DbAccess"
+Namespace: DartAPI.DataAccess
+ServiceClassName: DartEntities
+GenerateAsyncCode: true
+GenerateSyncCode: true
+ConnectionString: "Server=192.168.100.251;Database=yanikTest;User Id=DartUser;Password=d4rtPa$$"
+Items:
+ - SP: con.spGetPlayers
+   ExecuteOnly: true

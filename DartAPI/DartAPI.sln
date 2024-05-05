@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 25.0.1706.4
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DartAPI", "DartAPI\DartAPI.csproj", "{67583081-EC60-4CA5-9B74-030854DD71C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DartAPI", "DartAPI.csproj", "{DC4C4C1E-4445-4C84-B2AC-0E6566AE48AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67583081-EC60-4CA5-9B74-030854DD71C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67583081-EC60-4CA5-9B74-030854DD71C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67583081-EC60-4CA5-9B74-030854DD71C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67583081-EC60-4CA5-9B74-030854DD71C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4C4C1E-4445-4C84-B2AC-0E6566AE48AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4C4C1E-4445-4C84-B2AC-0E6566AE48AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4C4C1E-4445-4C84-B2AC-0E6566AE48AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4C4C1E-4445-4C84-B2AC-0E6566AE48AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E9A05EFF-C13E-4BA4-95FF-00683BC9E9D5}
+		SolutionGuid = {F46D1CC8-31CC-44F7-A651-48B8A7068354}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,8 @@
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.csproj.AssemblyReference.cache
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.AssemblyInfoInputs.cache
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.AssemblyInfo.cs
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.csproj.CoreCompileInputs.cache
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yanik\programming\private\DartApp\DartAPI\obj\Debug\net8.0\DartAPI.sourcelink.json
