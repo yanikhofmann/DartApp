@@ -1,0 +1,168 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "My API",
+    "version": "v1"
+  },
+  "paths": {
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Users": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "operationId": "GetUsers",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "required": [
+                    "value"
+                  ],
+                  "type": "object",
+                  "properties": {
+                    "value": {
+                      "uniqueItems": false,
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/spGetAllPlayersResult"
+                      },
+                      "xml": {
+                        "name": "table"
+                      }
+                    },
+                    "additionalValues": {
+                      "type": "array",
+                      "items": {
+                        "type": "array",
+                        "items": {
+                          "type": "object"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "x-dbobject-type": "StoredProcedure",
+        "x-dbobject-name": "da.spGetAllPlayers",
+        "x-operation-name": "Get"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "spGetAllPlayersResult": {
+        "required": [
+          "playerId",
+          "playerFirstName",
+          "playerLastName",
+          "playerBirthdate",
+          "playerDescription",
+          "playerEmail",
+          "playerIsActive"
+        ],
+        "type": "object",
+        "properties": {
+          "playerId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "playerFirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "playerLastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "playerBirthdate": {
+            "type": "string",
+            "format": "date",
+            "nullable": true
+          },
+          "playerDescription": {
+            "type": "string",
+            "nullable": true
+          },
+          "playerEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "playerIsActive": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "xml": {
+          "name": "tr"
+        }
+      }
+    }
+  }
+}

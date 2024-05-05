@@ -1,0 +1,44 @@
+[
+  {
+    "Name": "PlayerId",
+    "TypeName": "int",
+    "IsNullable": false,
+    "MaxLength": null
+  },
+  {
+    "Name": "PlayerFirstName",
+    "TypeName": "nvarchar",
+    "IsNullable": true,
+    "MaxLength": 255
+  },
+  {
+    "Name": "PlayerLastName",
+    "TypeName": "nvarchar",
+    "IsNullable": true,
+    "MaxLength": 255
+  },
+  {
+    "Name": "PlayerBirthdate",
+    "TypeName": "date",
+    "IsNullable": true,
+    "MaxLength": null
+  },
+  {
+    "Name": "PlayerDescription",
+    "TypeName": "nvarchar",
+    "IsNullable": true,
+    "MaxLength": null
+  },
+  {
+    "Name": "PlayerEmail",
+    "TypeName": "nvarchar",
+    "IsNullable": true,
+    "MaxLength": 255
+  },
+  {
+    "Name": "PlayerIsActive",
+    "TypeName": "bit",
+    "IsNullable": true,
+    "MaxLength": null
+  }
+]
